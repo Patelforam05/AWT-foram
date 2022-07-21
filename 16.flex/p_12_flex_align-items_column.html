@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2.6.2-flex-align-item-column</title>
+
+    <style type="text/css">
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+
+      .main-container {
+        border: 4px solid #0c0710;
+        display: flex; /* block level flex container */
+        flex-direction: column;
+        height: 600px;
+        
+        /* align-items: stretch; */  /* default value for algn-iitems is stretch */
+        /* align-items: flex-start; */
+        /* align-items: flex-end; */
+        align-items: center;
+        /* align-items: baseline; */
+      }
+
+      .item {
+        color: #110101;
+        font-size: 20px;
+        padding: 10px;
+        text-align: center;
+      }
+
+      .item-1 {
+        background-color:#DDA0DD;
+        padding-bottom: 30px;
+        font-family: cursive;
+      }
+
+      .item-2 {
+        background-color:#BF94E4;
+        padding-bottom: 45px;
+        padding-right: 60px;
+      }
+
+      .item-3 {
+        background-color:#08f327;
+        font-size: 45px;
+      }
+
+      .item-4 {
+        background-color:#FBAED2;
+        font-size: 10px;
+      }
+
+      .item-5 {
+        background-color:#b1a2ad;
+        padding-top: 20px;
+      }
+      
+      .item-6 {
+        background-color:#08d676;
+      }
+
+      .item-7 {
+        background-color:#A6D5AE;
+        font-size:x-large;
+      }
+
+      .item-8 {
+        background-color:#7332d4;
+      }
+
+      .item-9 {
+        background-color: #07980c;
+      }
+      
+      .item-10 {
+        background-color:#4beb90;
+        font-family: georgia;
+        font-size: 30px;
+        padding-bottom: 30px;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="main-container">
+      <div class="item item-1">item-1</div>
+      <div class="item item-2">item-2</div>
+      <div class="item item-3">item-3</div>
+      <div class="item item-4">item-4</div>
+      <div class="item item-5">item-5</div>
+      <div class="item item-6">item-6</div>
+      <div class="item item-7">item-7</div>
+      <div class="item item-8">item-8</div>
+      <div class="item item-9">item-9</div>
+      <div class="item item-10">item-10</div>
+    </div>
+    
+  </body>
+  
+</html>

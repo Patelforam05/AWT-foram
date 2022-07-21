@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2.1-flex-display</title>
+
+    <style type="text/css">
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+
+      .main-container {
+        border: 5px solid black;
+        /* display: flex; */ /* block level flex container */
+        display: inline-flex; /* inline flex container */ 
+        /* inline-flex displays the flex container in on single line if wrap property is not used */
+      }
+
+      .item {
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px;
+        text-align: center;
+      }
+
+      .item-1 {
+        background-color:#f57a15;
+      }
+
+      .item-2 {
+        background-color:#ebd510;
+      }
+
+      .item-3 {
+        background-color:#0eece1;
+      }
+
+      .item-4 {
+        background-color:#f0046e;
+      }
+
+      .item-5 {
+        background-color:#f50ed6;
+      }
+      
+      /* .item-6 {
+        background-color:#ADE4CA;
+      }
+
+      .item-7 {
+        background-color:#A6D5AE;
+      }
+
+      .item-8 {
+        background-color:#8FBC8E;
+      }
+
+      .item-9 {
+        background-color: #64A466;
+      }
+      
+      .item-10 {
+        background-color:#2E8B56;
+      } */
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="main-container">
+      <div class="item item-1">item-1</div>
+      <div class="item item-2">item-2</div>
+      <div class="item item-3">item-3</div>
+      <div class="item item-4">item-4</div>
+      <div class="item item-5">item-5</div>
+     
+    </div>
+    
+  </body>
+  
+</html>

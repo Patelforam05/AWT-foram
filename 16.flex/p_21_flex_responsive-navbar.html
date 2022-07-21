@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>4.2.2-flex-demo-responsive-navbar</title>
+
+    <style type="text/css">
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+
+      .nav-container {
+        background-color: #0ddb14;
+        border: 4px solid #b278e9;
+        font-size: 1rem;
+      }
+
+      .nav-content {
+        display: flex; /* block level flex container */
+        /* justify-content: flex-end; */
+      }
+
+      .nav-content, .nav-item {
+        list-style: none;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .nav-item {
+        color: #000000;
+        cursor: pointer;
+        padding: 0.5rem 1.5rem; /* top & bottom padding --> 0.5rem and left & right padding --> 1.5rem */
+        text-align: center;
+
+        flex: auto;
+      }
+
+      .nav-item:hover {
+        color: #ffffff;
+        background-color: #41e7ea;
+      }
+
+      @media all and (max-width: 599px) {
+
+        .nav-content {
+          flex-direction: column;
+        }
+
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <nav class="nav-container">
+
+      <ul class="nav-content">
+        <li class="nav-item nav-item-1"><button>Home</button></li>
+        <li class="nav-item nav-item-2"><button>About Us</button></li>
+        <li class="nav-item nav-item-3"><button>Products</button></li>
+        <li class="nav-item nav-item-4"><button>Services</button></li>
+        <li class="nav-item nav-item-4"><button>Sign In</button></li>
+        <li class="nav-item nav-item-5"><button>Contact us</button></div>
+      </ul>
+      
+    </nav>
+    
+  </body>
+  
+</html>

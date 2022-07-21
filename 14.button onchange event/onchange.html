@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Select one of the favourite colour from the given list to display. </p>
+<select id="Choose" onchange="Func_a()">
+<option value="Blue">Blue
+<option value="Pink">Pink
+<option value="Yellow">Yellow
+<option value="Green">Green
+</select>
+<p>use one of the colour to paint</p>
+<p id="demo1"></p>
+<script>
+function Func_a() {
+varx_ip = document.getElementById("Choose").value;
+document.getElementById("demo1").innerHTML = "Select from the given colour list " + x_ip;
+}
+</script>
+</body>
+</html>

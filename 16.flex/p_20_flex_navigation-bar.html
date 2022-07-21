@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>4.2.1-flex-demo-simple-navbar</title>
+
+    <style type="text/css">
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+
+      .nav-container {
+        background-color: #64a4a2;
+        border: 4px solid black;
+        font-size: 1rem;
+      }
+
+      .nav-content {
+        display: flex; /* block level flex container */
+        justify-content: flex-end;
+      }
+
+      .nav-content, .nav-item {
+        list-style: none;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .nav-item {
+        color: #f8efef;
+        cursor:pointer; /* it displays cursor when you hover on any item */
+        padding: 0.5rem 1.5rem; /* top & bottom padding --> 0.5rem and left & right padding --> 1.5rem */
+        text-align: center;
+      }
+
+      .nav-item:hover {
+        color: #141414;
+        background-color: #0ad32e;
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <nav class="nav-container">
+
+      <ul class="nav-content">
+        <li class="nav-item nav-item-1"><u>Home</u></li>
+        <li class="nav-item nav-item-2"><u>About Us</u></li>
+        <li class="nav-item nav-item-3"><u>Services</u></li>
+        <li class="nav-item nav-item-4"><u>Sign In</u></li>
+        <li class="nav-item nav-item-5"><u>Contact Us</u></div>
+      </ul>
+      
+    </nav>
+    
+  </body>
+  
+</html>
